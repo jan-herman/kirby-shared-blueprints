@@ -1,0 +1,4 @@
+extends: tabs/content
+
+fields:
+    page_builder: fields/page-builder

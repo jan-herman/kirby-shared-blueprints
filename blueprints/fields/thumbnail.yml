@@ -1,0 +1,10 @@
+# Docs: https://getkirby.com/docs/reference/panel/fields/files
+
+extends: fields/image
+
+label: field.thumbnail.label
+
+layout: cards
+info: false
+image:
+    ratio: 16/9

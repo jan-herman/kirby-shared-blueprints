@@ -1,0 +1,22 @@
+title: file.image.title
+
+accept:
+    extension: jpg, jpeg, png, gif, svg
+
+columns:
+    - width: 1/2
+        fields:
+            focus:
+                label: field.focus.label
+                type: focus
+                translate: false
+
+    - width: 1/2
+        fields:
+            caption: fields/caption
+            alt: fields/alt
+            color:
+                label: field.dominant_color.label
+                type: colors
+                translate: false
+

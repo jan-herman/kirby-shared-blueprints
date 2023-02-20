@@ -1,0 +1,7 @@
+label: section.pages.label
+
+type: pages
+layout: list
+search: true
+image: icon
+info: "{< page.translationStatusIndicator >}"

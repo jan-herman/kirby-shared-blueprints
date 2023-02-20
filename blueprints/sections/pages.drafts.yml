@@ -1,0 +1,5 @@
+extends: sections/pages
+
+label: section.drafts.label
+status: draft
+empty: section.drafts.empty

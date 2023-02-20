@@ -1,0 +1,4 @@
+draft:
+    label: statuses.default.draft.label
+listed:
+    label: statuses.default.listed.label

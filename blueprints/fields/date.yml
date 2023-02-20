@@ -1,0 +1,9 @@
+# Docs: https://getkirby.com/docs/reference/panel/fields/date
+
+label: field.date.label
+
+type: date
+
+time: false
+display: 'D. M. YYYY'
+default: now

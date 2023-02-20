@@ -1,0 +1,9 @@
+# Docs: https://getkirby.com/docs/reference/panel/fields/text
+
+label: field.id.label
+
+type: text
+
+counter: false
+before: '#'
+converter: slug

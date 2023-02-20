@@ -1,0 +1,13 @@
+# Docs: https://getkirby.com/docs/reference/panel/fields/files
+
+label: field.image.label
+
+info: "{< file.infoString >}"
+
+type: files
+query: page.images.filterBy('template', 'image')
+multiple: false
+uploads:
+    template: image
+image:
+    cover: true

@@ -1,0 +1,6 @@
+# Docs: https://github.com/chrisbeluga/kirby-navigation
+
+label: field.menu.label
+
+type: navigation
+levels: 1

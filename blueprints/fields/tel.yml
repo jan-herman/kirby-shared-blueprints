@@ -1,0 +1,7 @@
+# Docs: https://getkirby.com/docs/reference/panel/fields/tel
+
+label: field.tel.label
+
+type: tel
+
+icon: phone

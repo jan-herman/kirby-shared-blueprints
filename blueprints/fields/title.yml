@@ -1,0 +1,9 @@
+# Docs: https://getkirby.com/docs/reference/panel/fields/writer
+
+extends: fields/inline-text
+
+label: field.title.label
+
+placeholder: field.title.placeholder
+
+icon: title

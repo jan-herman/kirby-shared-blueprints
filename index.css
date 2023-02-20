@@ -1,0 +1,10 @@
+/* File Info String */
+.k-file-info-string{
+    display: block;
+    line-height: 1.5;
+}
+
+.k-cards-item .k-file-info-string{
+    display: inline-block;
+    padding-top: .25rem;
+}

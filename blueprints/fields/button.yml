@@ -1,0 +1,5 @@
+# Docs: https://github.com/OblikStudio/kirby-link-field
+
+extends: fields/link
+
+label: field.button.label

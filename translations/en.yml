@@ -1,0 +1,70 @@
+# Fields
+field.alt.label: Alternative Text
+field.author.label: Author
+field.bio.label: Bio
+field.bg_image.label: Background Image
+field.button.label: Button
+field.caption.label: Caption
+field.code.label: Code
+field.cover_image.label: Cover Image
+field.date.label: Date
+field.dominant_color.label: Dominant Color
+field.email.label: E-mail
+field.focus.label: Focal Point
+field.id.label: ID
+field.image.label: Image
+field.inline_text.label: Text
+field.link.label: Link
+field.menu.label: Menu
+field.subtitle.label: Subtitle
+field.subtitle.placeholder: Subtitle
+field.tags.label: Tags
+field.tel.label: Phone Number
+field.text.label: Text
+field.thumbnail.label: Thumbnail
+field.title.label: Title
+field.title.placeholder: Title
+field.username.label: Username
+field.username.placeholder: username
+field.username.placeholder.at: '@username'
+field.video.label: Video
+field.website.label: Website
+
+# Files
+file.audio.title: Audio
+file.document.title: Document
+file.image.title: Image
+
+# Pages
+page.error.title: Error Page
+
+# Sections
+section.audio.label: Audio
+section.documents.label: Documents
+section.drafts.label: Drafts
+section.drafts.empty: You have no drafts.
+section.images.label: Images
+section.pages.label: Pages
+section.pages.empty: You haven't published any pages yet.
+section.posts.label: Posts
+section.posts.empty: You haven't published any posts yet.
+section.videos.label: Videos
+
+# Statuses
+statuses.default.draft.label: Draft
+statuses.default.listed.label: Published
+
+# Tabs
+tab.categories.label: Categories
+tab.content.label: Content
+tab.dashboard.label: Dashboard
+tab.media.label: Media
+tab.menus.label: Menus
+tab.posts.label: Posts
+tab.seo.label: SEO
+tab.settings.label: Settings
+
+# Users
+user.default.title: User
+user.default.sections.info.title: Info
+user.default.sections.contacts.title: Contacts

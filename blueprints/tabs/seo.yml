@@ -1,0 +1,5 @@
+label: tab.seo.label
+
+icon: search
+
+extends: seo

@@ -1,0 +1,56 @@
+title: user.default.title
+
+columns:
+    - width: 1/2
+        sections:
+            info:
+                type: fields
+                fields:
+                    info_title:
+                        label: user.default.sections.info.title
+                        type: headline
+                        numbered: false
+                    bio:
+                        label: field.bio.label
+                        type: writer
+                        nodes:
+                            - paragraph
+                        marks:
+                            - bold
+                            - italic
+                            - strike
+                            - link
+                            - email
+
+    - width: 1/2
+        sections:
+            contacts:
+                type: fields
+                fields:
+                    contacts_title:
+                        label: user.default.sections.contacts.title
+                        type: headline
+                        numbered: false
+                    website:
+                        label: field.website.label
+                        type: url
+                    linkedin:
+                        label: LinkedIn
+                        type: text
+                        icon: linkedin
+                        placeholder: field.username.placeholder
+                    twitter:
+                        label: Twitter
+                        type: text
+                        icon: twitter
+                        placeholder: field.username.placeholder.at
+                    instagram:
+                        label: Instagram
+                        type: text
+                        icon: instagram
+                        placeholder: field.username.placeholder
+                    facebook:
+                        label: Facebook
+                        type: text
+                        icon: facebook
+                        placeholder: field.username.placeholder

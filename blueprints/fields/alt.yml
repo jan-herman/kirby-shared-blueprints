@@ -1,0 +1,7 @@
+# Docs: https://getkirby.com/docs/reference/panel/fields/text
+
+label: field.alt.label
+
+type: text
+
+icon: title

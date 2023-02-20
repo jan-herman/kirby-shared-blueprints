@@ -1,0 +1,10 @@
+# Docs: https://getkirby.com/docs/reference/panel/fields/textarea#monospace
+
+label: field.code.label
+
+type: textarea
+font: monospace
+counter: false
+buttons: false
+spellcheck: false
+size: tiny

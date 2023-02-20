@@ -1,0 +1,8 @@
+# Docs: https://getkirby.com/docs/reference/panel/fields/tags
+
+label: field.tags.label
+
+type: tags
+
+options: query
+query: page.siblings.pluck('tags', ',', true)

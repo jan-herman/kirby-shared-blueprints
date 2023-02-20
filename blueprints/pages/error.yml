@@ -1,0 +1,6 @@
+title: page.error.title
+
+icon: alert
+
+options:
+    read: false

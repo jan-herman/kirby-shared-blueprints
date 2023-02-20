@@ -1,0 +1,28 @@
+{
+    "name": "jan-herman/kirby-shared-blueprints",
+    "description": "Collection of shared Kirby blueprints.",
+    "version": "1.0.0",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jan Herman",
+            "email": "mail@janherman.com",
+            "homepage": "https://janherman.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "getkirby/composer-installer": "^1.2",
+        "belugadigital/kirby-navigation": "^3.0",
+        "oblik/kirby-link-field": "^5.0",
+        "hananils/kirby-colors": "^1.7",
+        "flokosiol/focus": "^3.1"
+    },
+    "extra": {
+		"installer-name": "shared-blueprints"
+	},
+    "config": {
+        "optimize-autoloader": true
+    }
+}

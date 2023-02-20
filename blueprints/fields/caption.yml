@@ -1,0 +1,15 @@
+# Docs: https://getkirby.com/docs/reference/panel/fields/writer
+
+extends: fields/inline-text
+
+label: field.caption.label
+
+icon: text
+
+marks:
+    - bold
+    - italic
+    - underline
+    - strike
+    - link
+    - email

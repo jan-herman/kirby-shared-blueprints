@@ -1,0 +1,70 @@
+# Fields
+field.alt.label: Alternativní text
+field.author.label: Autor
+field.bio.label: Bio
+field.bg_image.label: Obrázek na pozadí
+field.button.label: Button
+field.caption.label: Titulek
+field.code.label: Kód
+field.cover_image.label: Úvodní obrázek
+field.date.label: Datum
+field.dominant_color.label: Dominantní barva
+field.email.label: E-mail
+field.focus.label: Ústřední bod
+field.id.label: ID
+field.image.label: Obrázek
+field.inline_text.label: Text
+field.link.label: Odkaz
+field.menu.label: Menu
+field.subtitle.label: Podnadpis
+field.subtitle.placeholder: Podnadpis
+field.tags.label: Štítky
+field.tel.label: Telefon
+field.text.label: Text
+field.thumbnail.label: Náhledový obrázek
+field.title.label: Nadpis
+field.title.placeholder: Nadpis
+field.username.label: Uživatelské jméno
+field.username.placeholder: uzivatelske-jmeno
+field.username.placeholder.at: '@uzivatelske-jmeno'
+field.video.label: Video
+field.website.label: Webová stránka
+
+# Files
+files.audio.title: Audio
+file.document.title: Dokument
+file.image.title: Obrázek
+
+# Pages
+page.error.title: Chybová stránka
+
+# Sections
+section.audio.label: Audio
+section.documents.label: Dokumenty
+section.drafts.label: Koncepty
+section.drafts.empty: Koncepty jsou prázdné.
+section.images.label: Obrázky
+section.pages.label: Stránky
+section.pages.empty: Zatím jste nepublikovali žádné stránky.
+section.posts.label: Příspěvky
+section.posts.empty: Zatím jste nepublikovali žádné příspěvky.
+section.videos.label: Videa
+
+# Statuses
+statuses.default.draft.label: Koncept
+statuses.default.listed.label: Publikováno
+
+# Tabs
+tab.categories.label: Kategorie
+tab.content.label: Obsah
+tab.dashboard.label: Nástěnka
+tab.media.label: Média
+tab.menus.label: Menu
+tab.posts.label: Příspěvky
+tab.seo.label: SEO
+tab.settings.label: Nastavení
+
+# Users
+user.default.title: Uživatel
+user.default.sections.info.title: Info
+user.default.sections.contacts.title: Kontakty

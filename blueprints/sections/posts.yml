@@ -1,0 +1,13 @@
+label: section.posts.label
+
+type: pages
+status: listed
+layout: list
+sortable: false
+sortBy: date desc
+image:
+    query: page.thumbnail.toFile
+    ratio: 16/9
+    cover: true
+empty: section.posts.empty
+info: "{< page.translationStatusIndicator >}"

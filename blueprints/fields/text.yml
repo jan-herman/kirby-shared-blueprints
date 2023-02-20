@@ -1,0 +1,17 @@
+# Docs: https://getkirby.com/docs/reference/panel/fields/writer
+
+label: field.text.label
+
+type: writer
+marks:
+    - bold
+    - italic
+    - underline
+    - strike
+    - link
+    - email
+nodes:
+    - paragraph
+    - heading
+    - bulletList
+    - orderedList

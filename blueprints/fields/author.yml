@@ -1,0 +1,7 @@
+# Docs: https://getkirby.com/docs/reference/panel/fields/users
+
+label: field.author.label
+
+type: users
+
+multiple: false

@@ -1,0 +1,9 @@
+# Docs: https://getkirby.com/docs/reference/panel/fields/writer
+
+label: field.inline_text.label
+
+type: writer
+inline: true
+marks:
+    - bold
+    - link
