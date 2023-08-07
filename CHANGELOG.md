@@ -4,6 +4,9 @@
 ### Changed
 - image & video fields now query also files located in content root
 
+### Fixed
+- typo in email field definition
+
 
 ## [1.0.1] - 2023-02-20
 ### Added
