@@ -5,7 +5,7 @@ label: field.video.label
 info: "{< file.infoString >}"
 
 type: files
-query: page.files.filterBy('template', 'video')
+query: page.files.filterBy('template', 'video').add(site.images.filterBy('template', 'video'))
 multiple: false
 uploads:
     template: video

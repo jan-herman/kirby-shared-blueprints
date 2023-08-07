@@ -1,5 +1,5 @@
 # Docs: https://getkirby.com/docs/reference/panel/fields/email
 
-label: field.email.label:
+label: field.email.label
 
 type: email
