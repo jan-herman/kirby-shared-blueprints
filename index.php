@@ -59,7 +59,8 @@ Kirby::plugin('jan-herman/shared-blueprints', [
         'tabs/settings'             => __DIR__ . '/blueprints/tabs/settings.yml',
 
         // Users
-        'users/default'             => __DIR__ . '/blueprints/users/default.yml',
+        'users/admin'               => __DIR__ . '/blueprints/users/admin.yml',
+        'users/editor'              => __DIR__ . '/blueprints/users/editor.yml',
     ],
     'translations' => [
         'en' => Yaml::decode(F::read(__DIR__ . '/translations/en.yml')),

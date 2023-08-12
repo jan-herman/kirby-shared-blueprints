@@ -65,6 +65,9 @@ tab.seo.label: SEO
 tab.settings.label: Nastavení
 
 # Users
-user.default.title: Uživatel
-user.default.sections.info.title: Info
-user.default.sections.contacts.title: Kontakty
+user.admin.title: Administrátor
+user.admin.description: Má všechna práva.
+user.admin.sections.info.title: Info
+user.admin.sections.contacts.title: Kontakty
+user.editor.title: Editor
+user.editor.description: Má právo editovat obsah.

@@ -65,6 +65,9 @@ tab.seo.label: SEO
 tab.settings.label: Settings
 
 # Users
-user.default.title: User
-user.default.sections.info.title: Info
-user.default.sections.contacts.title: Contacts
+user.admin.title: Admin
+user.admin.description: Has all rights.
+user.admin.sections.info.title: Info
+user.admin.sections.contacts.title: Contacts
+user.editor.title: Editor
+user.editor.description: Has right to edit content.

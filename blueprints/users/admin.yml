@@ -1,4 +1,5 @@
-title: user.default.title
+title: user.admin.title
+description: user.admin.description
 
 columns:
     - width: 1/2
@@ -7,20 +8,14 @@ columns:
                 type: fields
                 fields:
                     info_title:
-                        label: user.default.sections.info.title
+                        label: user.admin.sections.info.title
                         type: headline
                         numbered: false
                     bio:
+                        extends: fields/text
                         label: field.bio.label
-                        type: writer
                         nodes:
                             - paragraph
-                        marks:
-                            - bold
-                            - italic
-                            - strike
-                            - link
-                            - email
 
     - width: 1/2
         sections:
@@ -28,7 +23,7 @@ columns:
                 type: fields
                 fields:
                     contacts_title:
-                        label: user.default.sections.contacts.title
+                        label: user.admin.sections.contacts.title
                         type: headline
                         numbered: false
                     website:

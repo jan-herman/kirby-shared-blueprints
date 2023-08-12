@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.2.0] - 2023-08-12
+### Added
+- editor user role
+
+
 ## [1.1.1] - 2023-08-07
 ### Fixed
 - version mismatch in composer.json
