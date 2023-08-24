@@ -71,3 +71,5 @@ user.admin.sections.info.title: Info
 user.admin.sections.contacts.title: Contacts
 user.editor.title: Editor
 user.editor.description: Has right to edit content.
+user.user.title: User
+user.user.description: Has right to view website.

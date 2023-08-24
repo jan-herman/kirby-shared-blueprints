@@ -1,8 +1,13 @@
 # Changelog
 
+## [1.3.0] - 2023-08-24
+### Added
+- "user" user role
+
+
 ## [1.2.0] - 2023-08-12
 ### Added
-- editor user role
+- "editor" user role
 
 
 ## [1.1.1] - 2023-08-07

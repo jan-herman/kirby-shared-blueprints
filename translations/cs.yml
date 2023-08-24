@@ -71,3 +71,5 @@ user.admin.sections.info.title: Info
 user.admin.sections.contacts.title: Kontakty
 user.editor.title: Editor
 user.editor.description: Má právo editovat obsah.
+user.user.title: Uživatel
+user.user.description: Má právo prohlížet web.

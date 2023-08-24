@@ -1,0 +1,6 @@
+title: user.user.title
+description: user.user.description
+
+permissions:
+    access:
+        panel: false
