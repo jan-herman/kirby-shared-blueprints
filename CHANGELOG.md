@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.3.1] - 2023-08-24
+### Added
+- info bar to the "user" user role settings
+
+
 ## [1.3.0] - 2023-08-24
 ### Added
 - "user" user role

@@ -4,3 +4,9 @@ description: user.user.description
 permissions:
     access:
         panel: false
+
+fields:
+    info:
+        type: info
+        label: false
+        text: user.user.info
