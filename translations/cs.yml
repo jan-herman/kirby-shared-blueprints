@@ -10,7 +10,6 @@ field.cover_image.label: Úvodní obrázek
 field.date.label: Datum
 field.dominant_color.label: Dominantní barva
 field.email.label: E-mail
-field.focus.label: Ústřední bod
 field.id.label: ID
 field.image.label: Obrázek
 field.inline_text.label: Text

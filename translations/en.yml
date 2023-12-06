@@ -10,7 +10,6 @@ field.cover_image.label: Cover Image
 field.date.label: Date
 field.dominant_color.label: Dominant Color
 field.email.label: E-mail
-field.focus.label: Focal Point
 field.id.label: ID
 field.image.label: Image
 field.inline_text.label: Text

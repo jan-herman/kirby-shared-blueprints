@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.0.1] - 2023-12-06
+### Removed
+- focus field dependency (was integrated into Kirby core)
+
+
+## [2.0.0] - 2023-12-06
+### Added
+- Kirby 4.0 as a requirement
+
+### Removed
+- kirby-link-field dependency
+
+
 ## [1.3.1] - 2023-08-24
 ### Added
 - info bar to the "user" user role settings

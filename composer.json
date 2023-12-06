@@ -1,7 +1,7 @@
 {
     "name": "jan-herman/kirby-shared-blueprints",
     "description": "Collection of shared Kirby blueprints.",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "type": "kirby-plugin",
     "license": "MIT",
     "homepage": "https://github.com/jan-herman/kirby-shared-blueprints",
@@ -17,8 +17,6 @@
         "getkirby/cms": "^4.0",
         "getkirby/composer-installer": "^1.2",
         "belugadigital/kirby-navigation": "^3.0",
-        "hananils/kirby-colors": "^1.7",
-        "flokosiol/focus": "^3.1",
         "jan-herman/kirby-colorextractor": "^1.0"
     },
     "extra": {
