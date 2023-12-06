@@ -1,9 +1,9 @@
-# Docs: https://github.com/OblikStudio/kirby-link-field
+# Docs: https://getkirby.com/docs/reference/panel/fields/link
 
 label: field.link.label
 
 type: link
-linkTypes:
+options:
     - page
     - url
     - email

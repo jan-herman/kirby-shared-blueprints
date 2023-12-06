@@ -1,4 +1,4 @@
-# Docs: https://github.com/OblikStudio/kirby-link-field
+# Docs: https://getkirby.com/docs/reference/panel/fields/link
 
 extends: fields/link
 
