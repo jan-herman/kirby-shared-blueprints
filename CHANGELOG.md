@@ -1,5 +1,10 @@
 # Changelog
 
+## [2.1.1] - 2024-01-19
+### Fixed
+- typo in `composer.json` (jan-herman/kirby-button-field version)
+
+
 ## [2.1.0] - 2024-01-19
 ### Added
 - icon field
