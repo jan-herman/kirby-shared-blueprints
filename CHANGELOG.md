@@ -1,12 +1,8 @@
 # Changelog
 
-## [2.1.2] - 2024-01-19
+## [2.1.3] - 2024-01-19
 ### Fixed
-- temporarily changed minimum stability to RC (to be able to use "tobimori/kirby-icon-field": "2.0.0-rc.4",)
-
-
-## [2.1.1] - 2024-01-19
-### Fixed
+- version numbers of some dependencies
 - typo in `composer.json` (jan-herman/kirby-button-field version)
 
 
