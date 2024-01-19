@@ -4,6 +4,9 @@ label: field.link.label
 
 type: link
 options:
-    - page
     - url
+    - page
+    - file
     - email
+    - tel
+    - anchor

@@ -4,17 +4,24 @@ field.author.label: Autor
 field.bio.label: Bio
 field.bg_image.label: Obrázek na pozadí
 field.button.label: Button
+field.button.title.label: Titulek
 field.caption.label: Titulek
 field.code.label: Kód
 field.cover_image.label: Úvodní obrázek
 field.date.label: Datum
 field.dominant_color.label: Dominantní barva
 field.email.label: E-mail
+field.icon.label: Ikona
 field.id.label: ID
 field.image.label: Obrázek
 field.inline_text.label: Text
 field.link.label: Odkaz
 field.menu.label: Menu
+field.menu.empty: Menu je prázdné
+field.menu.text.label: Text
+field.new_tab.label: Otevírat v nové záložce
+field.new_tab.false: 'Ne'
+field.new_tab.true: 'Ano'
 field.subtitle.label: Podnadpis
 field.subtitle.placeholder: Podnadpis
 field.tags.label: Štítky

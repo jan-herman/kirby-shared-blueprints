@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.1.0] - 2024-01-19
+### Added
+- icon field
+- new-tab field
+
+### Changed
+- button field
+- menu field
+- replaced `jan-herman/kirby-colorextractor` package with now updated `sylvainjule/colorextractor`
+- replaced `diesdasdigital/kirby-meta-knight` with `tobimori/kirby-seo`
+- minor Kirby 4 related adjustments
+
+
 ## [2.0.1] - 2023-12-06
 ### Removed
 - focus field dependency (was integrated into Kirby core)

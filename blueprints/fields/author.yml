@@ -5,3 +5,4 @@ label: field.author.label
 type: users
 
 multiple: false
+default: true

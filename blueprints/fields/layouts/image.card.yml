@@ -1,5 +1,5 @@
 layout: cards
-size: huge
+size: full
 image:
     ratio: 16/9
     cover: true

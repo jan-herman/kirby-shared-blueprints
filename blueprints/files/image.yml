@@ -8,6 +8,9 @@ columns:
         fields:
             caption: fields/caption
             alt: fields/alt
+
+    - width: 1/2
+        fields:
             color:
                 label: field.dominant_color.label
                 type: color

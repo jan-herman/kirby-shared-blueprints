@@ -1,5 +1,14 @@
 # Docs: https://getkirby.com/docs/reference/panel/fields/link
 
-extends: fields/link
-
 label: field.button.label
+
+type: button
+
+fields:
+    new_tab: fields/new-tab
+    title:
+        label: field.button.title.label
+        type: text
+        icon: title
+        counter: false
+    icon: fields/icon

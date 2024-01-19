@@ -10,8 +10,8 @@ sections:
         search: true
         sortBy: filename
         layout: cards
-        size: small
-        info: "{< file.infoString >}"
+        size: large
+        info: '{< file.infoString >}'
         limit: 50
         image:
             ratio: 4/3
@@ -22,7 +22,7 @@ sections:
         search: true
         sortBy: filename
         layout: list
-        info: "{< file.infoString >}"
+        info: '{< file.infoString >}'
         limit: 20
         image:
             query: file.thumbnail.toFile
@@ -34,7 +34,7 @@ sections:
         search: true
         sortBy: filename
         layout: list
-        info: "{< file.infoString >}"
+        info: '{< file.infoString >}'
         limit: 20
         image:
             query: file.thumbnail.toFile
@@ -46,7 +46,7 @@ sections:
         search: true
         sortBy: filename
         layout: list
-        info: "{< file.infoString >}"
+        info: '{< file.infoString >}'
         limit: 20
         iimage:
             query: file.thumbnail.toFile

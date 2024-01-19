@@ -2,4 +2,4 @@ label: tab.seo.label
 
 icon: search
 
-extends: seo/page
+extends: seo/site

@@ -1,0 +1,8 @@
+# Docs: https://github.com/tobimori/kirby-icon-field
+
+label: field.icon.label
+
+type: icon
+
+folder: assets/icons
+max: 1

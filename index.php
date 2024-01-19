@@ -1,6 +1,8 @@
 <?php
 
 use Kirby\Cms\App as Kirby;
+use Kirby\Data\Yaml;
+use Kirby\Filesystem\F;
 
 Kirby::plugin('jan-herman/shared-blueprints', [
     'blueprints' => [
@@ -14,11 +16,13 @@ Kirby::plugin('jan-herman/shared-blueprints', [
         'fields/cover-image'        => __DIR__ . '/blueprints/fields/cover-image.yml',
         'fields/date'               => __DIR__ . '/blueprints/fields/date.yml',
         'fields/email'              => __DIR__ . '/blueprints/fields/email.yml',
+        'fields/icon'               => __DIR__ . '/blueprints/fields/icon.yml',
         'fields/id'                 => __DIR__ . '/blueprints/fields/id.yml',
         'fields/image'              => __DIR__ . '/blueprints/fields/image.yml',
         'fields/inline-text'        => __DIR__ . '/blueprints/fields/inline-text.yml',
         'fields/link'               => __DIR__ . '/blueprints/fields/link.yml',
         'fields/menu'               => __DIR__ . '/blueprints/fields/menu.yml',
+        'fields/new-tab'            => __DIR__ . '/blueprints/fields/new-tab.yml',
         'fields/subtitle'           => __DIR__ . '/blueprints/fields/subtitle.yml',
         'fields/tags'               => __DIR__ . '/blueprints/fields/tags.yml',
         'fields/tel'                => __DIR__ . '/blueprints/fields/tel.yml',
@@ -55,6 +59,7 @@ Kirby::plugin('jan-herman/shared-blueprints', [
         'tabs/menus'                => __DIR__ . '/blueprints/tabs/menus.yml',
         'tabs/page-builder'         => __DIR__ . '/blueprints/tabs/page-builder.yml',
         'tabs/posts'                => __DIR__ . '/blueprints/tabs/posts.yml',
+        'tabs/seo-global'           => __DIR__ . '/blueprints/tabs/seo-global.yml',
         'tabs/seo'                  => __DIR__ . '/blueprints/tabs/seo.yml',
         'tabs/settings'             => __DIR__ . '/blueprints/tabs/settings.yml',
 
@@ -68,8 +73,7 @@ Kirby::plugin('jan-herman/shared-blueprints', [
         'cs' => Yaml::decode(F::read(__DIR__ . '/translations/cs.yml')),
     ],
     'fileMethods' => [
-        'infoString' => function (): string
-        {
+        'infoString' => function (): string {
             $meta = [];
 
             $meta[] = $this->niceSize();
@@ -78,7 +82,7 @@ Kirby::plugin('jan-herman/shared-blueprints', [
                 $meta[] = $this->dimensions();
             }
 
-            return '<small class="k-file-info-string">' . implode('<br>', $meta) . '</small>';
+            return '<small class="k-file-info-string">' . implode('&nbsp;&nbsp;&nbsp;&nbsp;', $meta) . '</small>';
         }
     ]
 ]);

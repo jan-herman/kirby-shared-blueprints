@@ -10,4 +10,3 @@ image:
     ratio: 16/9
     cover: true
 empty: section.posts.empty
-info: "{< page.translationStatusIndicator >}"

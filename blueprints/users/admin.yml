@@ -10,7 +10,6 @@ columns:
                     info_title:
                         label: user.admin.sections.info.title
                         type: headline
-                        numbered: false
                     bio:
                         extends: fields/text
                         label: field.bio.label
@@ -25,7 +24,6 @@ columns:
                     contacts_title:
                         label: user.admin.sections.contacts.title
                         type: headline
-                        numbered: false
                     website:
                         label: field.website.label
                         type: url
@@ -35,9 +33,9 @@ columns:
                         icon: linkedin
                         placeholder: field.username.placeholder
                     twitter:
-                        label: Twitter
+                        label: X (Twitter)
                         type: text
-                        icon: twitter
+                        icon: user
                         placeholder: field.username.placeholder.at
                     instagram:
                         label: Instagram

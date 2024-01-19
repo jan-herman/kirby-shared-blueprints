@@ -1,0 +1,11 @@
+# Docs: https://getkirby.com/docs/reference/panel/fields/toggle
+
+label: field.new_tab.label
+
+type: toggle
+
+text:
+    - field.new_tab.false
+    - field.new_tab.true
+
+icon: open
