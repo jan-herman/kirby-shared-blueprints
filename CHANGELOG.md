@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.2.0] - 2024-01-31
+### Added
+- unlisted status to default page statuses
+- description for page statuses
+
+
 ## [2.1.3] - 2024-01-19
 ### Fixed
 - version numbers of some dependencies

@@ -58,7 +58,11 @@ section.videos.label: Videos
 
 # Statuses
 statuses.default.draft.label: Draft
-statuses.default.listed.label: Published
+statuses.default.draft.text: The page is only accessible for logged in editors
+statuses.default.unlisted.label: Private
+statuses.default.unlisted.text: The page is only accessible via URL
+statuses.default.listed.label: Public
+statuses.default.listed.text: The page is accessible for anyone
 
 # Tabs
 tab.categories.label: Categories

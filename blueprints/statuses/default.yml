@@ -1,4 +1,9 @@
 draft:
     label: statuses.default.draft.label
+    text: statuses.default.draft.text
+unlisted:
+    label: statuses.default.unlisted.label
+    text: statuses.default.unlisted.text
 listed:
     label: statuses.default.listed.label
+    text: statuses.default.listed.text

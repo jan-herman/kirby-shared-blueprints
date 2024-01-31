@@ -58,7 +58,11 @@ section.videos.label: Videa
 
 # Statuses
 statuses.default.draft.label: Koncept
-statuses.default.listed.label: Publikováno
+statuses.default.draft.text: Stránka je dostupná pouze pro přihlášené editory
+statuses.default.unlisted.label: Soukromá
+statuses.default.unlisted.text: Stránka je dostupná pouze prostřednictvím adresy URL
+statuses.default.listed.label: Veřejná
+statuses.default.listed.text: Stránka je dostupná pro každého
 
 # Tabs
 tab.categories.label: Kategorie
