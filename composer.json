@@ -1,7 +1,7 @@
 {
     "name": "jan-herman/kirby-shared-blueprints",
     "description": "Collection of shared Kirby blueprints.",
-    "version": "2.2.0",
+    "version": "2.2.1",
     "type": "kirby-plugin",
     "license": "MIT",
     "homepage": "https://github.com/jan-herman/kirby-shared-blueprints",
@@ -19,7 +19,7 @@
         "jan-herman/kirby-button-field": "^1.0",
         "sylvainjule/colorextractor": "^1.0",
         "tobimori/kirby-icon-field": "2.0",
-        "tobimori/kirby-seo": "1.0.0-beta.3",
+        "tobimori/kirby-seo": "1.0.0-rc.2",
         "bnomei/kirby3-janitor": "^4.0"
     },
     "extra": {

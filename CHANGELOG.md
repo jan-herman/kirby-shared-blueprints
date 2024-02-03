@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.1] - 2024-01-03
+### Added
+- update dependencies
+    - "tobimori/kirby-icon-field": "2.0",
+    - "tobimori/kirby-seo": "1.0.0-rc.2",
+
+
 ## [2.2.0] - 2024-01-31
 ### Added
 - unlisted status to default page statuses
