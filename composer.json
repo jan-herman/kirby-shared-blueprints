@@ -1,7 +1,7 @@
 {
     "name": "jan-herman/kirby-shared-blueprints",
     "description": "Collection of shared Kirby blueprints.",
-    "version": "2.2.1",
+    "version": "2.2.2",
     "type": "kirby-plugin",
     "license": "MIT",
     "homepage": "https://github.com/jan-herman/kirby-shared-blueprints",

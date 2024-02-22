@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.2.2] - 2024-02-22
+### Changed
+- blueprints/error.yml
+    - option "read" which will be deprecated in KIrby 5 replaced with new "access"
+
+
 ## [2.2.1] - 2024-01-03
 ### Added
 - update dependencies
