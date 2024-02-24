@@ -4,3 +4,6 @@ type: pages
 layout: list
 search: true
 image: icon
+templatesIgnore:
+    - error
+    - media-library

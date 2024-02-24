@@ -1,0 +1,21 @@
+title: page.media-library.title
+
+icon: images
+
+options:
+    access: true
+    changeSlug: false
+    changeStatus: false
+    changeTemplate: false
+    changeTitle: false
+    create: false
+    delete: false
+    duplicate: false
+    list: false
+    move: false
+    preview: false
+    sort: false
+    update: false
+
+tabs:
+    media: tabs/media-library

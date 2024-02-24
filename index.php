@@ -31,8 +31,6 @@ Kirby::plugin('jan-herman/shared-blueprints', [
         'fields/title'              => __DIR__ . '/blueprints/fields/title.yml',
         'fields/video'              => __DIR__ . '/blueprints/fields/video.yml',
 
-        'fields/layouts/image.card' => __DIR__ . '/blueprints/fields/layouts/image.card.yml',
-
         // Files
         'files/audio'               => __DIR__ . '/blueprints/files/audio.yml',
         'files/document'            => __DIR__ . '/blueprints/files/document.yml',
@@ -41,6 +39,7 @@ Kirby::plugin('jan-herman/shared-blueprints', [
 
         // Pages
         'pages/error'               => __DIR__ . '/blueprints/pages/error.yml',
+        'pages/media-library'       => __DIR__ . '/blueprints/pages/media-library.yml',
 
         // Sections
         'sections/pages'            => __DIR__ . '/blueprints/sections/pages.yml',
@@ -55,6 +54,7 @@ Kirby::plugin('jan-herman/shared-blueprints', [
         'tabs/categories'           => __DIR__ . '/blueprints/tabs/categories.yml',
         'tabs/content'              => __DIR__ . '/blueprints/tabs/content.yml',
         'tabs/dashboard'            => __DIR__ . '/blueprints/tabs/dashboard.yml',
+        'tabs/media-library'        => __DIR__ . '/blueprints/tabs/media-library.yml',
         'tabs/media'                => __DIR__ . '/blueprints/tabs/media.yml',
         'tabs/menus'                => __DIR__ . '/blueprints/tabs/menus.yml',
         'tabs/page-builder'         => __DIR__ . '/blueprints/tabs/page-builder.yml',
@@ -71,6 +71,14 @@ Kirby::plugin('jan-herman/shared-blueprints', [
     'translations' => [
         'en' => Yaml::decode(F::read(__DIR__ . '/translations/en.yml')),
         'cs' => Yaml::decode(F::read(__DIR__ . '/translations/cs.yml')),
+    ],
+    'routes' => [
+        [
+            'pattern' => 'media-library',
+            'action'  => function () {
+                return false;
+            }
+        ],
     ],
     'fileMethods' => [
         'infoString' => function (): string {

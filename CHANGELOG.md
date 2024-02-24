@@ -1,9 +1,23 @@
 # Changelog
 
+## [2.3.0] - 2024-02-24
+### Added
+- media-library template & tab blueprint
+
+### Changed
+- image and video field query (uses media library instead of site root)
+
+### Fixed
+- missing templatesIgnore argument in pages section (error & media-library template)
+
+### Removed
+- `fields/layouts/image.card` blueprint
+
+
 ## [2.2.2] - 2024-02-22
 ### Changed
 - blueprints/error.yml
-    - option "read" which will be deprecated in KIrby 5 replaced with new "access"
+    - option "read" (will be deprecated in Kirby 5) replaced with "access"
 
 
 ## [2.2.1] - 2024-01-03

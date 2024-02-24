@@ -2,10 +2,10 @@
 
 label: field.image.label
 
-info: "{< file.infoString >}"
+info: '{< file.infoString >}'
 
 type: files
-query: page.images.filterBy('template', 'image').add(site.images.filterBy('template', 'image'))
+query: page.images.filterBy('template', 'image').add(site.find('media-library').images.filterBy('template', 'image'))
 multiple: false
 uploads:
     template: image

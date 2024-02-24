@@ -1,3 +1,9 @@
+/* Media Library Buttons */
+.k-page-view[data-template="media-library"] .k-header-buttons{
+    display: none;
+}
+
+
 /* File Info String */
 .k-file-info-string{
     display: block;
