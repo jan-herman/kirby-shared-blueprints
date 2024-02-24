@@ -16,6 +16,7 @@ Kirby::plugin('jan-herman/shared-blueprints', [
         'fields/cover-image'        => __DIR__ . '/blueprints/fields/cover-image.yml',
         'fields/date'               => __DIR__ . '/blueprints/fields/date.yml',
         'fields/email'              => __DIR__ . '/blueprints/fields/email.yml',
+        'fields/excerpt'            => __DIR__ . '/blueprints/fields/excerpt.yml',
         'fields/icon'               => __DIR__ . '/blueprints/fields/icon.yml',
         'fields/id'                 => __DIR__ . '/blueprints/fields/id.yml',
         'fields/image'              => __DIR__ . '/blueprints/fields/image.yml',

@@ -11,6 +11,7 @@ field.cover_image.label: Cover Image
 field.date.label: Date
 field.dominant_color.label: Dominant Color
 field.email.label: E-mail
+field.excerpt.label: Excerpt
 field.icon.label: Icon
 field.id.label: ID
 field.image.label: Image

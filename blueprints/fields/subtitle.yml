@@ -5,3 +5,6 @@ extends: fields/inline-text
 label: field.subtitle.label
 
 placeholder: field.subtitle.placeholder
+
+marks:
+    - bold

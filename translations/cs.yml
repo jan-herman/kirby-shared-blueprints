@@ -11,6 +11,7 @@ field.cover_image.label: Úvodní obrázek
 field.date.label: Datum
 field.dominant_color.label: Dominantní barva
 field.email.label: E-mail
+field.excerpt.label: Perex
 field.icon.label: Ikona
 field.id.label: ID
 field.image.label: Obrázek

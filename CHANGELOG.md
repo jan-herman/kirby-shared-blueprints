@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.4.0] - 2024-02-24
+### Added
+- `fields/excerpt` blueprint
+
+### Removed
+- links from subtitle field
+
+
 ## [2.3.0] - 2024-02-24
 ### Added
 - media-library template & tab blueprint

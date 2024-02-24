@@ -1,0 +1,5 @@
+extends: fields/text
+
+label: field.excerpt.label
+
+nodes: false
