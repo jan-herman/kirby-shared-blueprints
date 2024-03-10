@@ -35,7 +35,7 @@ columns:
                     twitter:
                         label: X (Twitter)
                         type: text
-                        icon: user
+                        icon: twitter-x
                         placeholder: field.username.placeholder.at
                     instagram:
                         label: Instagram

@@ -1,5 +1,10 @@
 # Changelog
 
+## [2.4.1] - 2024-03-10
+### Changed
+- update dependencies
+
+
 ## [2.4.0] - 2024-02-24
 ### Added
 - `fields/excerpt` blueprint
