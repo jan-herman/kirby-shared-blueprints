@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.4.2] - 2024-03-18
+### Changed
+- update dependencies
+    - tobimori/kirby-seo": "^1.0"
+
+
 ## [2.4.1] - 2024-03-10
 ### Changed
 - update dependencies
