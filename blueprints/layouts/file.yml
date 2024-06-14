@@ -1,0 +1,9 @@
+title: layout.file.title
+
+icon: file
+
+columns:
+    left:
+        width: 1/2
+    right:
+        width: 1/2

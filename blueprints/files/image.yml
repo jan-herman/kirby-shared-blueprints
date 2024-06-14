@@ -1,18 +1,1 @@
-title: file.image.title
-
-accept:
-    extension: jpg, jpeg, png, gif, svg
-
-columns:
-    - width: 1/2
-        fields:
-            caption: fields/caption
-            alt: fields/alt
-
-    - width: 1/2
-        fields:
-            color:
-                label: field.dominant_color.label
-                type: color
-                translate: false
-
+extends: files/image.default

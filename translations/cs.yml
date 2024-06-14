@@ -38,9 +38,13 @@ field.video.label: Video
 field.website.label: Webová stránka
 
 # Files
-files.audio.title: Audio
+file.audio.title: Audio
 file.document.title: Dokument
 file.image.title: Obrázek
+file.video.title: Video
+
+# Layouts
+layout.file.title: Soubor
 
 # Pages
 page.error.title: Chybová stránka

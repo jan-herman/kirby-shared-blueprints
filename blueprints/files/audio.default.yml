@@ -1,0 +1,21 @@
+extends: layouts/file
+
+title: file.audio.label
+
+accept:
+    extension: mp3
+
+image:
+    query: file.thumbnail.toFile
+    cover: true
+
+columns:
+    left:
+        fields:
+            caption: fields/caption
+    right:
+        fields:
+            thumbnail:
+                extends: fields/thumbnail
+                query: file.parent.images
+                translate: false

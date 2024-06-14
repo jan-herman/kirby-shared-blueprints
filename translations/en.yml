@@ -41,6 +41,10 @@ field.website.label: Website
 file.audio.title: Audio
 file.document.title: Document
 file.image.title: Image
+file.video.title: Video
+
+# Layouts
+layout.file.title: Soubor
 
 # Pages
 page.error.title: Error Page

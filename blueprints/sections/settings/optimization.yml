@@ -1,0 +1,26 @@
+type: fields
+
+fields:
+    optimization_title:
+        label:
+            en: Optimization & Performance
+            cs: Optimalizace a výkon
+        type: headline
+        help:
+            en: Clear temporary data stored on the server to ensure that your site displays the latest updates and changes.
+            cs: Vymazáním dočasných dat uložených na serveru zajistíte, aby se na webu zobrazovaly nejnovější aktualizace a změny.
+    flush_server_cache:
+        type: janitor
+        command: 'janitor:flush --name pages'
+        icon: trash
+        label:
+            en: Flush Server Cache
+            cs: Smazat serverovou cache
+        progress:
+            en: Flushing Server Cache...
+            cs: Mazání serverové cache...
+        success:
+            en: Cache Flushed Successfully
+            cs: Cache úspěšně smazána
+    optimization_gap:
+        type: gap

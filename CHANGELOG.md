@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.5.0] - 2024-06-14
+### Added
+- sections/settings/optimization blueprint
+- `author` field to `files/image` blueprint
+- `authorFallback file method (returns 'Artist from Exif')
+
+### Changed
+- file blueprints are now extendable
+
+
 ## [2.4.2] - 2024-03-18
 ### Changed
 - update dependencies

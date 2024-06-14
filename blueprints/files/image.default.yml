@@ -1,0 +1,24 @@
+extends: layouts/file
+
+title: file.image.title
+
+accept:
+    extension: jpg, jpeg, png, gif, svg
+
+columns:
+    left:
+        fields:
+            caption: fields/caption
+            alt: fields/alt
+            author:
+                label: field.author.label
+                placeholder: '{{ file.authorFallback }}'
+                type: text
+                icon: user
+                translate: false
+    right:
+        fields:
+            color:
+                label: field.dominant_color.label
+                type: color
+                translate: false
