@@ -1,7 +1,7 @@
 label: section.posts.label
 
 type: pages
-status: listed
+status: published
 layout: list
 sortable: false
 sortBy: date desc

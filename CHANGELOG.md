@@ -1,5 +1,10 @@
 # Changelog
 
+## [2.5.1] - 2024-07-25
+### Fixed
+- unlisted pages were not shown in the "posts" section
+
+
 ## [2.5.0] - 2024-06-14
 ### Added
 - sections/settings/optimization blueprint
