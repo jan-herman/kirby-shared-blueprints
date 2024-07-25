@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.3.2] - 2024-07-25
+### Fixed
+- unlisted pages were not shown in the "posts" section
+
+
 ## [1.3.1] - 2023-08-24
 ### Added
 - info bar to the "user" user role settings
