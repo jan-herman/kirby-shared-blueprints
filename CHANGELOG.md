@@ -1,5 +1,10 @@
 # Changelog
 
+## [2.5.2] - 2024-08-06
+### Fixed
+- janitor command in optimization section
+
+
 ## [2.5.1] - 2024-07-25
 ### Fixed
 - unlisted pages were not shown in the "posts" section

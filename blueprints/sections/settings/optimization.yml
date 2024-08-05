@@ -11,7 +11,7 @@ fields:
             cs: Vymazáním dočasných dat uložených na serveru zajistíte, aby se na webu zobrazovaly nejnovější aktualizace a změny.
     flush_server_cache:
         type: janitor
-        command: 'janitor:flush --name pages'
+        command: 'janitor:flush pages --quiet'
         icon: trash
         label:
             en: Flush Server Cache
