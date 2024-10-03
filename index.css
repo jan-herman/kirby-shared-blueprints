@@ -1,5 +1,6 @@
-/* Media Library Buttons */
-.k-page-view[data-template="media-library"] .k-header-buttons{
+/* Hide header buttons for media library and nested blocks */
+.k-page-view[data-template="media-library"] .k-header-buttons,
+.k-page-view[data-template="nested-blocks"] .k-header-buttons{
     display: none;
 }
 

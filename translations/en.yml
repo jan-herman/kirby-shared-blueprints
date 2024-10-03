@@ -2,27 +2,27 @@
 field.alt.label: Alternative Text
 field.author.label: Author
 field.bio.label: Bio
-field.bg_image.label: Background Image
+field.bg-image.label: Background Image
 field.button.label: Button
 field.button.title.label: Title
 field.caption.label: Caption
 field.code.label: Code
-field.cover_image.label: Cover Image
+field.cover-image.label: Cover Image
 field.date.label: Date
-field.dominant_color.label: Dominant Color
+field.dominant-color.label: Dominant Color
 field.email.label: E-mail
 field.excerpt.label: Excerpt
 field.icon.label: Icon
 field.id.label: ID
 field.image.label: Image
-field.inline_text.label: Text
+field.inline-text.label: Text
 field.link.label: Link
 field.menu.label: Menu
 field.menu.empty: Menu is empty
 field.menu.text.label: Text
-field.new_tab.label: Open in a new tab
-field.new_tab.false: 'No'
-field.new_tab.true: 'Yes'
+field.new-tab.label: Open in a new tab
+field.new-tab.false: 'No'
+field.new-tab.true: 'Yes'
 field.subtitle.label: Subtitle
 field.subtitle.placeholder: Subtitle
 field.tags.label: Tags

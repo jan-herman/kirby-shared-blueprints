@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.6.0] - 2024-10-03
+### Added
+- support for page builder nested blocks
+
+### Changed
+- key name casing in translations (snake_case to kebab-case)
+
+
 ## [2.5.2] - 2024-08-06
 ### Fixed
 - janitor command in optimization section

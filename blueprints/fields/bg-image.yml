@@ -2,4 +2,4 @@
 
 extends: fields/image
 
-label: field.bg_image.label
+label: field.bg-image.label

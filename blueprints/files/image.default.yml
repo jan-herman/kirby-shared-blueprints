@@ -19,6 +19,6 @@ columns:
     right:
         fields:
             color:
-                label: field.dominant_color.label
+                label: field.dominant-color.label
                 type: color
                 translate: false

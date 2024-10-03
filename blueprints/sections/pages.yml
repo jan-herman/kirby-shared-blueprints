@@ -7,3 +7,5 @@ image: icon
 templatesIgnore:
     - error
     - media-library
+    - nested-blocks
+    - nested-block

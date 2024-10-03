@@ -2,6 +2,6 @@
 
 extends: fields/image
 
-label: field.cover_image.label
+label: field.cover-image.label
 
 info: false
