@@ -4,5 +4,6 @@ label: field.icon.label
 
 type: icon
 
-folder: assets/icons
+folder: '{{ kirby.roots.index }}/assets/images'
+sprite: icons.svg
 max: 1

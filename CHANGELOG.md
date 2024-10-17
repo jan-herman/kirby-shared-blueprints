@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.7.0] - 2024-10-17
+### Changed
+- icon field
+    - bump kirby-icon-field to 2.1 (adds support for kirby query language in field options)
+    - use SVG sprite instead of files
+
+
 ## [2.6.0] - 2024-10-03
 ### Added
 - support for page builder nested blocks
