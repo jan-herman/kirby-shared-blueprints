@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.9.0] - 2025-03-17
+### Changed
+- pages section styles (gray background for icon)
+- max number of images in the media library section (from 50 to 60)
+
+
 ## [2.8.0] - 2024-10-17
 ### Fixed
 - v.2.7.0 accidentally introduced a breaking change in the icon field (reverted to 2.6.0)

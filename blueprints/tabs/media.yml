@@ -12,7 +12,7 @@ sections:
         layout: cards
         size: large
         info: '{< file.infoString >}'
-        limit: 50
+        limit: 60
         image:
             ratio: 4/3
     videos:

@@ -3,7 +3,10 @@ label: section.pages.label
 type: pages
 layout: list
 search: true
-image: icon
+image:
+    query: false
+    back: var(--color-gray-100)
+    color: currentColor
 templatesIgnore:
     - error
     - media-library
