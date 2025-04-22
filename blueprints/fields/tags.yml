@@ -4,5 +4,6 @@ label: field.tags.label
 
 type: tags
 
-options: query
-query: page.siblings.pluck('tags', ',', true)
+options:
+    type: query
+    query: page.parentModel.children.pluck('tags', ',', true)

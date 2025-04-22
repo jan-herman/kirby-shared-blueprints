@@ -27,23 +27,28 @@ columns:
                     website:
                         label: field.website.label
                         type: url
+                        translate: false
                     linkedin:
                         label: LinkedIn
                         type: text
                         icon: linkedin
                         placeholder: field.username.placeholder
+                        translate: false
                     twitter:
                         label: X (Twitter)
                         type: text
                         icon: twitter-x
                         placeholder: field.username.placeholder.at
+                        translate: false
                     instagram:
                         label: Instagram
                         type: text
                         icon: instagram
                         placeholder: field.username.placeholder
+                        translate: false
                     facebook:
                         label: Facebook
                         type: text
                         icon: facebook
                         placeholder: field.username.placeholder
+                        translate: false

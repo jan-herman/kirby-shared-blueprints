@@ -5,3 +5,4 @@ extends: fields/image
 label: field.cover-image.label
 
 info: false
+translate: false

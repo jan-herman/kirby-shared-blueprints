@@ -7,3 +7,4 @@ type: date
 time: false
 display: 'D. M. YYYY'
 default: now
+translate: false

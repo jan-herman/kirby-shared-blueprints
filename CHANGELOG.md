@@ -1,5 +1,10 @@
 # Changelog
 
+## [2.9.1] - 2025-04-22
+### Fixed
+- bug: tag field options were empty
+
+
 ## [2.9.0] - 2025-03-17
 ### Changed
 - pages section styles (gray background for icon)

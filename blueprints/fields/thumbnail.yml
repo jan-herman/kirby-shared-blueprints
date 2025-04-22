@@ -9,3 +9,4 @@ size: full
 info: false
 image:
     ratio: 16/9
+translate: false
