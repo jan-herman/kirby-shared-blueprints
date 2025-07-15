@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.10.0] - 2025-07-15
+### Added
+- settings page
+    - `pages/settings` blueprint
+    - `$site->settings()` & `$site->setting()` methods
+    - `setting()` helper function
+
+
 ## [2.9.1] - 2025-04-22
 ### Fixed
 - bug: tag field options were empty

@@ -49,6 +49,7 @@ layout.file.title: Soubor
 # Pages
 page.error.title: Error Page
 page.media-library.title: Media Library
+page.settings.title: Settings
 
 # Sections
 section.audio.label: Audio

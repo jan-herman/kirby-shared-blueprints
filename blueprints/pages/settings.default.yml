@@ -1,0 +1,18 @@
+title: page.settings.title
+
+icon: cog
+
+options:
+    access: true
+    changeSlug: false
+    changeStatus: false
+    changeTemplate: false
+    changeTitle: false
+    create: false
+    delete: false
+    duplicate: false
+    list: false
+    move: false
+    preview: false
+    sort: false
+    update: true

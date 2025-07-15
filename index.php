@@ -1,6 +1,8 @@
 <?php
 
 use Kirby\Cms\App as Kirby;
+use Kirby\Content\Content;
+use Kirby\Content\Field;
 use Kirby\Data\Yaml;
 use Kirby\Filesystem\F;
 
@@ -48,6 +50,7 @@ Kirby::plugin('jan-herman/shared-blueprints', [
         // Pages
         'pages/error'                    => __DIR__ . '/blueprints/pages/error.yml',
         'pages/media-library'            => __DIR__ . '/blueprints/pages/media-library.yml',
+        'pages/settings.default'         => __DIR__ . '/blueprints/pages/settings.default.yml',
 
         // Sections
         'sections/pages'                 => __DIR__ . '/blueprints/sections/pages.yml',
@@ -88,6 +91,26 @@ Kirby::plugin('jan-herman/shared-blueprints', [
                 return false;
             }
         ],
+        [
+            'pattern' => 'settings',
+            'action'  => function () {
+                return false;
+            }
+        ],
+    ],
+    'siteMethods' => [
+        'settings' => function (string|null $language_code = null): Content {
+            $settings_page = $this->find('settings');
+
+            if (!$settings_page) {
+                return new Content();
+            }
+
+            return $settings_page->content($language_code);
+        },
+        'setting' => function (string $key): Field {
+            return $this->settings()->{$key}();
+        }
     ],
     'fileMethods' => [
         'authorFallback' => function (): string {
@@ -110,3 +133,9 @@ Kirby::plugin('jan-herman/shared-blueprints', [
         }
     ]
 ]);
+
+// Helper functions
+function setting(string $key): Field
+{
+    return Kirby::instance()->site()->setting($key);
+}

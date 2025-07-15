@@ -49,6 +49,7 @@ layout.file.title: Soubor
 # Pages
 page.error.title: Chybová stránka
 page.media-library.title: Knihovna médií
+page.settings.title: Nastavení
 
 # Sections
 section.audio.label: Audio

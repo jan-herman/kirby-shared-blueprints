@@ -1,5 +1,12 @@
-/* Hide header buttons for media library and nested blocks */
+/* Hide header buttons for media library */
 .k-page-view[data-template="media-library"] .k-header-buttons{
+    display: none;
+}
+
+
+/* Hide header buttons for settings page */
+.k-page-view[data-template="settings"] .k-header-buttons .k-button.k-page-view-options,
+.k-page-view[data-template="settings"] .k-header-buttons .k-button.k-page-view-status{
     display: none;
 }
 
