@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.0.0] - 2025-07-21
+### Added
+- Kirby 5 compatibility
+
+
 ## [2.10.0] - 2025-07-15
 ### Added
 - settings page
