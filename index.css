@@ -5,8 +5,8 @@
 
 
 /* Hide header buttons for settings page */
-.k-page-view[data-template="settings"] .k-header-buttons .k-button.k-page-view-options,
-.k-page-view[data-template="settings"] .k-header-buttons .k-button.k-page-view-status{
+.k-page-view[data-template="settings"] .k-header-buttons .k-view-button.k-settings-view-button,
+.k-page-view[data-template="settings"] .k-header-buttons .k-view-button.k-status-view-button{
     display: none;
 }
 

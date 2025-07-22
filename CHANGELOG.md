@@ -3,6 +3,8 @@
 ## [3.0.0] - 2025-07-21
 ### Added
 - Kirby 5 compatibility
+- Batch delete support for pages and files sections
+- Dark mode support (uses CSS variables from `jan-herman/kirby-panel-extended`)
 
 
 ## [2.10.0] - 2025-07-15

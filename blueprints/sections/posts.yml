@@ -3,6 +3,7 @@ label: section.posts.label
 type: pages
 status: published
 layout: list
+batch: true
 sortable: false
 sortBy: date desc
 image:

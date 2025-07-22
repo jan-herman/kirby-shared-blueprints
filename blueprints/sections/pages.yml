@@ -2,11 +2,12 @@ label: section.pages.label
 
 type: pages
 layout: list
+batch: true
 search: true
 image:
     query: false
-    back: var(--color-gray-100)
-    color: currentColor
+    back: var(--jh-item-image-color-bg)
+    color: var(--jh-item-image-color)
 templatesIgnore:
     - error
     - media-library

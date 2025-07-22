@@ -11,6 +11,7 @@ sections:
         sortBy: filename
         layout: cards
         size: large
+        batch: true
         info: '{< file.infoString >}'
         limit: 60
         image:
@@ -22,6 +23,7 @@ sections:
         search: true
         sortBy: filename
         layout: list
+        batch: true
         info: '{< file.infoString >}'
         limit: 20
         image:
@@ -34,6 +36,7 @@ sections:
         search: true
         sortBy: filename
         layout: list
+        batch: true
         info: '{< file.infoString >}'
         limit: 20
         image:
@@ -46,6 +49,7 @@ sections:
         search: true
         sortBy: filename
         layout: list
+        batch: true
         info: '{< file.infoString >}'
         limit: 20
         iimage:
