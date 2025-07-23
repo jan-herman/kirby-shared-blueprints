@@ -6,6 +6,9 @@
 - Batch delete support for pages and files sections
 - Dark mode support (uses CSS variables from `jan-herman/kirby-panel-extended`)
 
+### Fixed
+- missing preview button on settings page
+
 
 ## [2.10.0] - 2025-07-15
 ### Added

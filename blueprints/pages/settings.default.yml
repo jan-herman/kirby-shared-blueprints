@@ -13,6 +13,6 @@ options:
     duplicate: false
     list: false
     move: false
-    preview: false
+    preview: '{{ site.url }}'
     sort: false
     update: true
