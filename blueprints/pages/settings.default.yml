@@ -15,4 +15,6 @@ options:
     move: false
     preview: '{{ site.url }}'
     sort: false
-    update: true
+    update:
+        *: false
+        admin: true
