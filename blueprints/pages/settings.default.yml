@@ -15,4 +15,6 @@ options:
     move: false
     preview: false
     sort: false
-    update: true
+    update:
+        *: false
+        admin: true

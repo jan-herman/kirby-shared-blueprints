@@ -1,5 +1,10 @@
 # Changelog
 
+## [2.10.1] - 2025-09-22
+### Fixed
+- Bugfix: Editors were able to edit settings
+
+
 ## [2.10.0] - 2025-07-15
 ### Added
 - settings page
