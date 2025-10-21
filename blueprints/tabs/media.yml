@@ -52,6 +52,6 @@ sections:
         batch: true
         info: '{< file.infoString >}'
         limit: 20
-        iimage:
+        image:
             query: file.thumbnail.toFile
             cover: true
