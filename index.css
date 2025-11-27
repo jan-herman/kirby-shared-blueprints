@@ -4,6 +4,12 @@
 }
 
 
+/* Enlarge file icons */
+.k-files-section .k-items[data-layout="cards"][data-size="large"] .k-item-image .k-icon{
+    --icon-size: 3rem;
+}
+
+
 /* Hide header buttons for settings page */
 .k-page-view[data-template="settings"] .k-header-buttons .k-view-button.k-settings-view-button,
 .k-page-view[data-template="settings"] .k-header-buttons .k-view-button.k-status-view-button{

@@ -35,6 +35,9 @@ Kirby::plugin('jan-herman/shared-blueprints', [
         'fields/video'                   => __DIR__ . '/blueprints/fields/video.yml',
 
         // Files
+        'files/default'                  => __DIR__ . '/blueprints/files/default.yml',
+        'files/archive.default'          => __DIR__ . '/blueprints/files/archive.default.yml',
+        'files/archive'                  => __DIR__ . '/blueprints/files/archive.yml',
         'files/audio.default'            => __DIR__ . '/blueprints/files/audio.default.yml',
         'files/audio'                    => __DIR__ . '/blueprints/files/audio.yml',
         'files/document.default'         => __DIR__ . '/blueprints/files/document.default.yml',

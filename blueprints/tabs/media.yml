@@ -3,10 +3,9 @@ label: tab.media.label
 icon: images
 
 sections:
-    images:
-        label: section.images.label
+    files:
+        label: section.files.label
         type: files
-        template: image
         search: true
         sortBy: filename
         layout: cards
@@ -16,42 +15,3 @@ sections:
         limit: 60
         image:
             ratio: 4/3
-    videos:
-        label: section.videos.label
-        type: files
-        template: video
-        search: true
-        sortBy: filename
-        layout: list
-        batch: true
-        info: '{< file.infoString >}'
-        limit: 20
-        image:
-            query: file.thumbnail.toFile
-            cover: true
-    audio:
-        label: section.audio.label
-        type: files
-        template: audio
-        search: true
-        sortBy: filename
-        layout: list
-        batch: true
-        info: '{< file.infoString >}'
-        limit: 20
-        image:
-            query: file.thumbnail.toFile
-            cover: true
-    documents:
-        label: section.documents.label
-        type: files
-        template: document
-        search: true
-        sortBy: filename
-        layout: list
-        batch: true
-        info: '{< file.infoString >}'
-        limit: 20
-        image:
-            query: file.thumbnail.toFile
-            cover: true

@@ -1,0 +1,18 @@
+extends: layouts/file
+
+title: file.default.label
+
+image:
+    query: file.thumbnail.toFile
+    cover: true
+
+columns:
+    left:
+        fields:
+            caption: fields/caption
+    right:
+        fields:
+            thumbnail:
+                extends: fields/thumbnail
+                query: file.parent.images
+                translate: false

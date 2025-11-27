@@ -1,5 +1,16 @@
 # Changelog
 
+### [3.1.0] - 2025-11-27
+### Added
+- automatic file template detection
+- `presprog/kirby-auto-file-templates` dependency
+- archive file template support (for zip & rar files)
+- `files/default` blueprint
+
+### Changed
+- media and media library tabs - one section for all file types
+
+
 ## [3.0.4] - 2025-09-22
 ### Fixed
 - Bugfix: Editors were able to edit settings

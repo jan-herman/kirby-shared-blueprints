@@ -1,0 +1,6 @@
+extends: files/default
+
+title: file.archive.label
+
+accept:
+    extension: zip, rar

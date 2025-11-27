@@ -38,7 +38,9 @@ field.video.label: Video
 field.website.label: Webová stránka
 
 # Files
+file.archive.title: Archiv
 file.audio.title: Audio
+file.default.title: Soubor
 file.document.title: Dokument
 file.image.title: Obrázek
 file.video.title: Video
@@ -52,16 +54,13 @@ page.media-library.title: Knihovna médií
 page.settings.title: Nastavení
 
 # Sections
-section.audio.label: Audio
-section.documents.label: Dokumenty
 section.drafts.label: Koncepty
 section.drafts.empty: Koncepty jsou prázdné.
-section.images.label: Obrázky
+section.files.label: Soubory
 section.pages.label: Stránky
 section.pages.empty: Zatím jste nepublikovali žádné stránky.
 section.posts.label: Příspěvky
 section.posts.empty: Zatím jste nepublikovali žádné příspěvky.
-section.videos.label: Videa
 
 # Statuses
 statuses.default.draft.label: Koncept

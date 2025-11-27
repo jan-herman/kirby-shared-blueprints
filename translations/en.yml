@@ -38,7 +38,9 @@ field.video.label: Video
 field.website.label: Website
 
 # Files
+file.archive.title: Archive
 file.audio.title: Audio
+file.default.title: File
 file.document.title: Document
 file.image.title: Image
 file.video.title: Video
@@ -52,16 +54,13 @@ page.media-library.title: Media Library
 page.settings.title: Settings
 
 # Sections
-section.audio.label: Audio
-section.documents.label: Documents
 section.drafts.label: Drafts
 section.drafts.empty: You have no drafts.
-section.images.label: Images
+section.files.label: Files
 section.pages.label: Pages
 section.pages.empty: You haven't published any pages yet.
 section.posts.label: Posts
 section.posts.empty: You haven't published any posts yet.
-section.videos.label: Videos
 
 # Statuses
 statuses.default.draft.label: Draft

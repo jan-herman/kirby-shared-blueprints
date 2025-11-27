@@ -1,11 +1,5 @@
 extends: tabs/media
 
 sections:
-    images:
-        parent: site.find('media-library')
-    videos:
-        parent: site.find('media-library')
-    audio:
-        parent: site.find('media-library')
-    documents:
+    files:
         parent: site.find('media-library')
