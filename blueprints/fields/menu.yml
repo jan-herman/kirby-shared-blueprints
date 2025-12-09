@@ -19,6 +19,7 @@ fields:
             - file
             - email
             - tel
+            - custom
         width: 2/3
         required: true
     new_tab:

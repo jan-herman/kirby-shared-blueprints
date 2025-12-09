@@ -1,5 +1,10 @@
 # Changelog
 
+### [3.2.0] - 2025-12-09
+### Removed
+- `tobimori/kirby-seo` dependency
+
+
 ### [3.1.0] - 2025-11-27
 ### Added
 - automatic file template detection
