@@ -7,7 +7,7 @@ columns:
             info:
                 type: fields
                 fields:
-                    info_title:
+                    _info_headline:
                         label: user.admin.sections.info.title
                         type: headline
                     bio:
@@ -21,7 +21,7 @@ columns:
             contacts:
                 type: fields
                 fields:
-                    contacts_title:
+                    _contacts_headline:
                         label: user.admin.sections.contacts.title
                         type: headline
                     website:

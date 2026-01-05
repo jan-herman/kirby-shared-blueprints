@@ -1,7 +1,7 @@
 type: fields
 
 fields:
-    optimization_title:
+    _optimization_headline:
         label:
             en: Optimization & Performance
             cs: Optimalizace a výkon
