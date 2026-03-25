@@ -18,3 +18,8 @@ options:
     update:
         *: false
         admin: true
+
+buttons:
+    open: true
+    preview: true
+    languages: true

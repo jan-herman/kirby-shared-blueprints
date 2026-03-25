@@ -17,5 +17,7 @@ options:
     sort: false
     update: false
 
+buttons: false
+
 tabs:
     media: tabs/media-library
