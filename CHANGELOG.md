@@ -1,5 +1,20 @@
 # Changelog
 
+### [3.3.0] - 2026-04-15
+### Added
+- `settings.slug` & `settings.uuid` options
+- `media-library.slug` & `media-library.uuid` options
+- `settings` & `media-library` custom panel areas (can be used in panel menu definition)
+- `kirby make:settings` & `kirby make:media-library` CLI commands
+- `Settings` and `MediaLibrary` models
+- `ErrorPage` model
+
+### Changed
+- folder structure (index.php is split into separate files)
+- image & video field blueprints are now dynamic (based on the `media-library.slug` option)
+- file blueprints registration
+
+
 ### [3.2.0] - 2025-12-09
 ### Removed
 - `tobimori/kirby-seo` dependency

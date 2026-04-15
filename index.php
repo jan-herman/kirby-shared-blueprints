@@ -1,12 +1,26 @@
 <?php
 
 use Kirby\Cms\App as Kirby;
-use Kirby\Content\Content;
 use Kirby\Content\Field;
 use Kirby\Data\Yaml;
 use Kirby\Filesystem\F;
+use JanHerman\SharedBlueprints\Models\Settings;
+use JanHerman\SharedBlueprints\Models\MediaLibrary;
+use JanHerman\SharedBlueprints\Models\ErrorPage;
+
+@include_once __DIR__ . '/vendor/autoload.php';
 
 Kirby::plugin('jan-herman/shared-blueprints', [
+    'options' => [
+        'settings' => [
+            'slug' => 'settings',
+            'uuid' => 'settings',
+        ],
+        'mediaLibrary' => [
+            'slug' => 'media-library',
+            'uuid' => 'media-library',
+        ],
+    ],
     'blueprints' => [
         // Fields
         'fields/alt'                     => __DIR__ . '/blueprints/fields/alt.yml',
@@ -21,7 +35,7 @@ Kirby::plugin('jan-herman/shared-blueprints', [
         'fields/excerpt'                 => __DIR__ . '/blueprints/fields/excerpt.yml',
         'fields/icon'                    => __DIR__ . '/blueprints/fields/icon.yml',
         'fields/id'                      => __DIR__ . '/blueprints/fields/id.yml',
-        'fields/image'                   => __DIR__ . '/blueprints/fields/image.yml',
+        'fields/image'                   => require __DIR__ . '/blueprints/fields/image.php',
         'fields/inline-text'             => __DIR__ . '/blueprints/fields/inline-text.yml',
         'fields/link'                    => __DIR__ . '/blueprints/fields/link.yml',
         'fields/menu'                    => __DIR__ . '/blueprints/fields/menu.yml',
@@ -32,20 +46,20 @@ Kirby::plugin('jan-herman/shared-blueprints', [
         'fields/text'                    => __DIR__ . '/blueprints/fields/text.yml',
         'fields/thumbnail'               => __DIR__ . '/blueprints/fields/thumbnail.yml',
         'fields/title'                   => __DIR__ . '/blueprints/fields/title.yml',
-        'fields/video'                   => __DIR__ . '/blueprints/fields/video.yml',
+        'fields/video'                   => require __DIR__ . '/blueprints/fields/video.php',
 
         // Files
         'files/default'                  => __DIR__ . '/blueprints/files/default.yml',
         'files/archive.default'          => __DIR__ . '/blueprints/files/archive.default.yml',
-        'files/archive'                  => __DIR__ . '/blueprints/files/archive.yml',
+        'files/archive'                  => __DIR__ . '/blueprints/files/archive.default.yml',
         'files/audio.default'            => __DIR__ . '/blueprints/files/audio.default.yml',
-        'files/audio'                    => __DIR__ . '/blueprints/files/audio.yml',
+        'files/audio'                    => __DIR__ . '/blueprints/files/audio.default.yml',
         'files/document.default'         => __DIR__ . '/blueprints/files/document.default.yml',
-        'files/document'                 => __DIR__ . '/blueprints/files/document.yml',
+        'files/document'                 => __DIR__ . '/blueprints/files/document.default.yml',
         'files/image.default'            => __DIR__ . '/blueprints/files/image.default.yml',
-        'files/image'                    => __DIR__ . '/blueprints/files/image.yml',
+        'files/image'                    => __DIR__ . '/blueprints/files/image.default.yml',
         'files/video.default'            => __DIR__ . '/blueprints/files/video.default.yml',
-        'files/video'                    => __DIR__ . '/blueprints/files/video.yml',
+        'files/video'                    => __DIR__ . '/blueprints/files/video.default.yml',
 
         // Layouts
         'layouts/file'                   => __DIR__ . '/blueprints/layouts/file.yml',
@@ -54,6 +68,7 @@ Kirby::plugin('jan-herman/shared-blueprints', [
         'pages/error'                    => __DIR__ . '/blueprints/pages/error.yml',
         'pages/media-library'            => __DIR__ . '/blueprints/pages/media-library.yml',
         'pages/settings.default'         => __DIR__ . '/blueprints/pages/settings.default.yml',
+        'pages/settings'                 => __DIR__ . '/blueprints/pages/settings.default.yml',
 
         // Sections
         'sections/pages'                 => __DIR__ . '/blueprints/sections/pages.yml',
@@ -83,62 +98,26 @@ Kirby::plugin('jan-herman/shared-blueprints', [
         'users/editor'                   => __DIR__ . '/blueprints/users/editor.yml',
         'users/user'                     => __DIR__ . '/blueprints/users/user.yml',
     ],
+    'pageModels' => [
+        'settings' => Settings::class,
+        'media-library' => MediaLibrary::class,
+        'error' => ErrorPage::class,
+    ],
+    'areas' => require __DIR__ . '/config/areas.php',
+    'commands' => require __DIR__ . '/config/commands.php',
+    'siteMethods' => require __DIR__ . '/config/site-methods.php',
+    'fileMethods' => require __DIR__ . '/config/file-methods.php',
+    'routes' => require __DIR__ . '/config/routes.php',
     'translations' => [
         'en' => Yaml::decode(F::read(__DIR__ . '/translations/en.yml')),
         'cs' => Yaml::decode(F::read(__DIR__ . '/translations/cs.yml')),
     ],
-    'routes' => [
-        [
-            'pattern' => 'media-library',
-            'action'  => function () {
-                return false;
-            }
-        ],
-        [
-            'pattern' => 'settings',
-            'action'  => function () {
-                return false;
-            }
-        ],
-    ],
-    'siteMethods' => [
-        'settings' => function (string|null $language_code = null): Content {
-            $settings_page = $this->find('settings');
-
-            if (!$settings_page) {
-                return new Content();
-            }
-
-            return $settings_page->content($language_code);
-        },
-        'setting' => function (string $key): Field {
-            return $this->settings()->{$key}();
-        }
-    ],
-    'fileMethods' => [
-        'authorFallback' => function (): string {
-            if ($this->type() !== 'image') {
-                return '';
-            }
-
-            return $this->exif()->data()['Artist'] ?? '';
-        },
-        'infoString' => function (): string {
-            $meta = [];
-
-            $meta[] = $this->niceSize();
-
-            if ($this->dimensions()) {
-                $meta[] = $this->dimensions();
-            }
-
-            return '<small class="k-file-info-string">' . implode('&nbsp;&nbsp;&nbsp;&nbsp;', $meta) . '</small>';
-        }
-    ]
 ]);
 
 // Helper functions
-function setting(string $key): Field
-{
-    return Kirby::instance()->site()->setting($key);
+if (!function_exists('setting')) {
+    function setting(string $key): Field
+    {
+        return Kirby::instance()->site()->setting($key);
+    }
 }

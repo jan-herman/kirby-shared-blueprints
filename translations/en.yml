@@ -90,3 +90,7 @@ user.editor.description: Has right to edit content.
 user.user.title: User
 user.user.description: Has right to view website.
 user.user.info: This user role has no settings.
+
+# Panel
+panel.settings.title: Settings
+panel.media-library.title: Media Library

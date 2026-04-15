@@ -90,3 +90,7 @@ user.editor.description: Má právo editovat obsah.
 user.user.title: Uživatel
 user.user.description: Má právo prohlížet web.
 user.user.info: Tato uživatelská role nemá žádná nastavení.
+
+# Panel
+panel.settings.title: Nastavení
+panel.media-library.title: Knihovna médií

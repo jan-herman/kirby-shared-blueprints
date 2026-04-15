@@ -2,4 +2,4 @@ extends: tabs/media
 
 sections:
     files:
-        parent: site.find('media-library')
+        parent: site.find(kirby.option('jan-herman.shared-blueprints.mediaLibrary.slug'))
