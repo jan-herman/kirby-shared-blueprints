@@ -3,7 +3,7 @@
 ### [3.3.0] - 2026-04-15
 ### Added
 - `settings.slug` & `settings.uuid` options
-- `media-library.slug` & `media-library.uuid` options
+- `mediaLibrary.slug` & `mediaLibrary.uuid` options
 - `settings` & `media-library` custom panel areas (can be used in panel menu definition)
 - `kirby make:settings` & `kirby make:media-library` CLI commands
 - `Settings` and `MediaLibrary` models

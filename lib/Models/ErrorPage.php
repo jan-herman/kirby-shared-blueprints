@@ -28,6 +28,6 @@ class ErrorPage extends Page
      */
     public function errorCode(): int
     {
-        return $this->kirby()->response()->code();
+        return $this->kirby()->response()->code() ?? 500;
     }
 }
