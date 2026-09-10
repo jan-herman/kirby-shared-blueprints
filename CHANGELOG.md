@@ -1,5 +1,13 @@
 # Changelog
 
+### [3.3.2] - 2026-09-10
+### Fixed
+- icon field blueprint, which had been broken since v3, now loads the `icons.svg` sprite from Kirby's configured images root
+
+### Changed
+- **Potentially breaking:** the icon field now expects `icons.svg` in Kirby's configured images root instead of individual icons in `assets/icons`; there are no known usages of the broken field since v3 was released
+
+
 ### [3.3.0] - 2026-04-15
 ### Added
 - `settings.slug` & `settings.uuid` options
