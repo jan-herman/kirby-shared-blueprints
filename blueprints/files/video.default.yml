@@ -3,4 +3,4 @@ extends: files/default
 title: file.video.title
 
 accept:
-    extension: mp4
+    extension: mp4, webm

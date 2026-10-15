@@ -1,5 +1,10 @@
 # Changelog
 
+### [3.3.3] - 2026-10-15
+### Added
+- `.webm` to allowed extensions for video files
+
+
 ### [3.3.2] - 2026-09-10
 ### Fixed
 - icon field blueprint, which had been broken since v3, now loads the `icons.svg` sprite from Kirby's configured images root
