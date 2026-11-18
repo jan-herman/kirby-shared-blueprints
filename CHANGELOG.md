@@ -1,5 +1,10 @@
 # Changelog
 
+### [3.3.4] - 2026-11-18
+### Changed
+- update `getkirby/cli` dependency to `^2.0`
+
+
 ### [3.3.3] - 2026-10-15
 ### Added
 - `.webm` to allowed extensions for video files
